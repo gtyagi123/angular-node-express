@@ -28,7 +28,7 @@ export class DisplayUserDataComponent implements OnInit {
   ngOnInit() {
     this.subscriber = this.route.params.subscribe(params => {
 
-      this.http.get('http://localhost:3000/api/v1/customer/' + params.uid).subscribe((data: any) => {
+      this.http.get('https://angular-node-express-api.appspot.com/api/v1/customer/' + params.uid).subscribe((data: any) => {
 
         this.user = new UserInfoModel(data.customer);
       });

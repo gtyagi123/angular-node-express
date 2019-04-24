@@ -3,7 +3,7 @@ api_version: 1
 threadsafe: yes
 
 env_variables:
-  API_KEY: AIzaSyCBC0n9nqXGu1e3gXhkA3u-55GDUORCul4 
+  API_KEY: AIzaSyDpnKN3FQZxKu9gKTMJlhoPOMTIT9ts08M
 
 handlers:
 
@@ -21,4 +21,4 @@ skip_files:
   - ^(.*/)?.*\.json$
   - ^(.*/)?.*\.md$
   - ^(.*/)?.*\.yaml$
-- ^LICENSE
+  - ^LICENSE
