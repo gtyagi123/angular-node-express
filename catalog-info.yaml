@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: angular-node-express
+  annotations:
+    github.com/project-slug: gtyagi123/angular-node-express
+spec:
+  type: other
+  lifecycle: unknown
+  owner: gtyagi123
